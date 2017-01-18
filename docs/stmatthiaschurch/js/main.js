@@ -322,36 +322,6 @@
 		}
 	};
 
-	var calendarAnimate = function() {
-		var calendar = $('#fh5co-calendar');
-		if ( calendar.length > 0 ) {	
-
-			calendar.waypoint( function( direction ) {
-										
-				if( direction === 'down' && !$(this.element).hasClass('animated') ) {
-
-
-					setTimeout(function() {
-						calendar.find('.to-animate').each(function( k ) {
-							var el = $(this);
-							
-							setTimeout ( function () {
-								el.addClass('fadeInUp animated');
-							},  k * 200, 'easeInOutExpo' );
-							
-						});
-					}, 200);
-
-					
-
-					$(this.element).addClass('animated');
-						
-				}
-			} , { offset: '80%' } );
-
-		}
-	};
-
 	var aboutAnimate = function() {
 		var about = $('#fh5co-about');
 		if ( about.length > 0 ) {	
@@ -493,7 +463,6 @@
 		workAnimate();
 		testimonialAnimate();
 		servicesAnimate();
-		calendarAnimate();
 		aboutAnimate();
 		countersAnimate();
 		contactAnimate();
