@@ -2,7 +2,7 @@
 title = "St. Matthias Church"
 languageCode = "en-us"
 theme = "hugo-elate-theme"
-publishDir = "docs"
+publishDir = "stmatthiaschurch"
 
 [params]
   
