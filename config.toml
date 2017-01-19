@@ -1,7 +1,6 @@
 # Page settings
 title = "St. Matthias Catholic Church"
 languageCode = "en-us"
-theme = "hugo-elate-theme"
 publishDir = "docs/stmatthiaschurch"
 
 [params]
@@ -46,6 +45,14 @@ publishDir = "docs/stmatthiaschurch"
   # Intro section
   # Available icons: http://simplelineicons.com/
   [params.intro]
+
+  [[params.intro.item]]
+    title = "Bulletin"
+    description = "Find weekly updated information about important events at St. Matthias Church."
+    url = "http://www.parishesonline.com/find/st-matthias-church-48313"
+    button = "Click Here"
+    icon = "icon-book-open"
+    img = "img_10.jpg"
 
   [[params.intro.item]]
     title = "Calendar"
