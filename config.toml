@@ -56,7 +56,7 @@ publishDir = "docs/stmatthiaschurch"
 
   [[params.intro.item]]
     title = "Calendar"
-    description = "View all upcoming events to get involved at St. Matthias Catholic Church."
+    description = "View all upcoming important dates to get involved at St. Matthias Catholic Church."
     url = "#"
     button = "Click Here"
     icon = "icon-calendar"
