@@ -1,37 +1,58 @@
-## Welcome to GitHub Pages
+# Elate Theme
+Elate is a one page portfolio for freelancers, designers, developers and even agencies based on the [original html5 theme](//freehtml5.co/elate-free-html5-bootstrap-template/). 
+This Hugo theme features several content sections, a contact form, a responsive portfolio grid with hover effects, a smooth parallax and animation effect on sections. Its packed with 4 ready to use styles.
 
-You can use the [editor on GitHub](https://github.com/ewgates/ewgates.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+![Hugo Elate Theme screenshot](https://raw.githubusercontent.com/saey55/hugo-elate-theme/master/images/screenshot.png)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Installation
 
-### Markdown
+Inside the folder of your Hugo site run:
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+    $ cd themes
+    $ git clone https://github.com/saey55/hugo-elate-theme
 
-```markdown
-Syntax highlighted code block
+For more information read the official [setup guide](//gohugo.io/overview/installing/) of Hugo.
 
-# Header 1
-## Header 2
-### Header 3
+## Getting started
 
-- Bulleted
-- List
+After installing the Elate Theme successfully it requires a just a few more steps to get your site running.
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
+### The config file
 
-[Link](url) and ![Image](src)
-```
+Take a look inside the [`exampleSite`](//github.com/saey55/hugo-elate-theme/tree/master/exampleSite) folder of this theme. You'll find a file called [`config.toml`](//github.com/saey55/hugo-elate-theme/blob/master/exampleSite/config.toml). To use it, copy the [`config.toml`](//github.com/saey55/hugo-elate-theme/blob/master/exampleSite/config.toml) in the root folder of your Hugo site. Feel free to change the strings in this theme.
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### Make the contact form working
 
-### Jekyll Themes
+Since this page will be static, you can use [formspree.io](//formspree.io/) as proxy to send the actual email. Each month, visitors can send you up to one thousand emails without incurring extra charges. Begin the setup by following the steps below:
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ewgates/ewgates.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+1. Enter your email address under 'email' in the [`config.toml`](//github.com/saey55/hugo-elate-theme/blob/master/exampleSite/config.toml)
+2. Enable form by setting `enable` to `true` in contact settings
+3. Upload the generated site to your server
+4. Send a dummy email yourself to confirm your account
+5. Click the confirm link in the email from [formspree.io](//formspree.io/)
+6. You're done. Happy mailing!
 
-### Support or Contact
+### Nearly finished
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+In order to see your site in action, run Hugo's built-in local server. 
+
+    $ hugo server
+
+Now enter [`localhost:1313`](http://localhost:1313/) in the address bar of your browser.
+
+
+## Contributing
+
+Did you find a bug or have an idea for a new feature? Feel free to use the [issue tracker](//github.com/saey55/hugo-elate-theme/issues) to let me know. Or make directly a [pull request](//github.com/saey55/hugo-elate-theme/pulls).
+
+## License
+
+This theme is released under The MIT License (MIT). For more information read the [License](//github.com/saey55/hugo-elate-theme/blob/master/LICENSE.md).
+
+## Acknowledgements
+
+Thanks to 
+
+- [freehtml5.co](//freehtml5.co) for creating this theme
+- [Steve Francia](//github.com/spf13) for creating Hugo and the awesome community around the project.

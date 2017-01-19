@@ -41,18 +41,41 @@ publishDir = "docs/stmatthiaschurch"
   # Hero section
   [params.hero]
     title = ""
-    subtitle = 'St. Matthias Catholic Chruch is a prayerful and supportive parish community committed to growing in peace and unity through prayer and sacrament.'
+    subtitle = 'St. Matthias Catholic Church is a prayerful and supportive parish community committed to growing in peace and unity through prayer and sacrament.'
  
   # Intro section
   # Available icons: http://simplelineicons.com/
   [params.intro]
-    
+
+  [[params.intro.item]]
+    title = "Calendar"
+    description = "View all upcoming events to get involved at St. Matthias Catholic Church."
+    url = "#"
+    button = "Click Here"
+    icon = "icon-calendar"
+    img = "img_7.jpg"
+
+  [[params.intro.item]]
+    title = "Schedule"
+    description = "Find information about mass and confession times as well as St. Matthias Parish Office hours."
+    url = "#"
+    button = "Click Here"
+    icon = "icon-clock"
+    img = "img_8.jpg"
+
+  [[params.intro.item]]
+    title = "Donation"
+    description = "Discover how to participate in a new Online Giving program at St. Matthias Catholic Church."
+    url = "#"
+    button = "Click Here"
+    icon = "icon-info"
+    img = "img_10.jpg"
+
   [params.intro.video]
     enable = true
     title = "Watch the video"
     icon = "icon-play2"
     url = "https://www.youtube.com/watch?v=CUiTK3BOwzk"
-
 
   # Work section
   [params.work]
